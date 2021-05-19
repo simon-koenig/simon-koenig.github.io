@@ -1,0 +1,142 @@
+html {
+    background-color: #010124;
+    font-family: "Poppins";
+}
+
+.page {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+    padding: 0 5% 0 5%;
+}
+
+main {
+    background-color: black;
+    flex-grow: 1;
+}
+
+header {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    height: 30%;
+    width: inherit;
+
+}
+
+
+aside {
+    width: 280px;
+    background-color: black;
+    flex-shrink: 0;
+    padding: 0 20px 0 20px;
+}
+
+footer{
+    background: black;
+    font-size: 5px;
+    width: inherit;
+    padding: 70px;
+}
+
+footer p {
+    font-size:15px;
+}
+
+p {
+    color: white;
+    width: 500px;
+    font-size: 20px;
+}
+
+p a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    color:white;
+    margin:  10px;
+
+}
+
+li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin-bottom:  10px;
+    cursor: pointer;
+
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    padding-left: 45px;
+
+}
+
+h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+    flex-basis: 100%;
+    margin: 10px;
+    color: white;
+}
+
+.buttons{
+    margin:10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin: 10px;
+
+}
+.column {
+    flex:25%;
+    padding: 0 10px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+.grid-buttons{
+    text-align: right;
+    margin-right: 2%;
+}
+.button {
+    background-color: #f0bc78;
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #ffba61;
+}
+
+.button.active {
+    background-color: #db9335;
+}
